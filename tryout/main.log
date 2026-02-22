@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.11)  21 FEB 2026 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.11)  22 FEB 2026 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -404,31 +404,116 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip73
 \f@nch@widthR=\skip74
 \@temptokenb=\toks30
-)) (c:/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
+)) (c:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (c:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (c:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count336
+) (c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen188
+\Hy@linkcounter=\count337
+\Hy@pagecounter=\count338
+ (c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count339
+ (c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count340
+ (c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen189
+ (c:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count341
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count342
+\c@Item=\count343
+\c@Hfootnote=\count344
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count345
+\c@bookmark@seq@number=\count346
+ (c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip75
+) (c:/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (c:/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count336
-\c@Blindtext=\count337
-\c@blind@countparstart=\count338
-\blind@countxx=\count339
-\blindtext@numBlindtext=\count340
-\blind@countyy=\count341
-\c@blindlist=\count342
-\c@blindlistlevel=\count343
-\c@blindlist@level=\count344
-\blind@listitem=\count345
-\c@blind@listcount=\count346
-\c@blind@levelcount=\count347
-\blind@mathformula=\count348
-\blind@Mathformula=\count349
-\c@blind@randomcount=\count350
-\c@blind@randommax=\count351
-\c@blind@pangramcount=\count352
-\c@blind@pangrammax=\count353
+\c@blindtext=\count347
+\c@Blindtext=\count348
+\c@blind@countparstart=\count349
+\blind@countxx=\count350
+\blindtext@numBlindtext=\count351
+\blind@countyy=\count352
+\c@blindlist=\count353
+\c@blindlistlevel=\count354
+\c@blindlist@level=\count355
+\blind@listitem=\count356
+\c@blind@listcount=\count357
+\c@blind@levelcount=\count358
+\blind@mathformula=\count359
+\blind@Mathformula=\count360
+\c@blind@randomcount=\count361
+\c@blind@randommax=\count362
+\c@blind@pangramcount=\count363
+\c@blind@pangrammax=\count364
 ) (c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty \lstset,
-\lst@mode=\count354
+\lst@mode=\count365
  
 new hook `InitVars',
 
@@ -441,14 +526,14 @@ new hook `ModeTrue',
 new hook `EOL',
 \lst@gtempboxa=\box111
 \lst@token=\toks31
-\lst@length=\count355
+\lst@length=\count366
 
 new hook `InitVarsBOL',
-\lst@currlwidth=\dimen188
-\lst@column=\count356
-\lst@pos=\count357
-\lst@lostspace=\dimen189
-\lst@width=\dimen190
+\lst@currlwidth=\dimen192
+\lst@column=\count367
+\lst@pos=\count368
+\lst@lostspace=\dimen193
+\lst@width=\dimen194
 basewidth, 
 new hook `FontAdjust',
 fontadjust, 
@@ -458,7 +543,7 @@ new hook `OutputBox',
 
 new hook `InitBOL',
 columns, flexiblecolumns,
-\lst@newlines=\count358
+\lst@newlines=\count369
  
 new hook `OnNewLine',
 emptylines, 
@@ -477,7 +562,7 @@ extendedchars, useoutput, rescanchars, alsoletter, alsodigit, alsoother,
 new hook `SelectCharTable',
 excludedelims, delim, moredelim, deletedelim, literate, basicstyle, inputencoding, multicols, 
 new hook `EveryLine',
-\lst@lineno=\count359
+\lst@lineno=\count370
 print, firstline, lastline, 
 new hook `PreSet',
 nolol, linerange, consecutivenumbers, rangeprefix, rangesuffix, rangebeginprefix, rangebeginsuffix, rangeendprefix, rangeendsuffix, includerangemarker, 
@@ -491,7 +576,7 @@ new hook `PreInit',
 
 new hook `EveryPar',
 showlines,
-\lst@maxwidth=\dimen191
+\lst@maxwidth=\dimen195
  
 new hook `InitVarsEOL',
 gobble, name, \lstlistlistingname, \lstlistoflistings, inputpath, \lstnewenvironment, fancyvrb, (c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
@@ -536,8 +621,8 @@ Define lst-aspect `language': \lstlanguagefiles, \lstdefinelanguage, \lst@define
 Allocs: none
 
 Define lst-aspect `labels': numbers, stepnumber, numberfirstline, numberstyle, numbersep, numberblanklines, firstnumber,
-\c@lstnumber=\count360
-\lst@skipnumbers=\count361
+\c@lstnumber=\count371
+\lst@skipnumbers=\count372
  
 Allocs: 2\count, 
 
@@ -570,38 +655,38 @@ Package: trsym 2000/06/25v1.0transformation symbol font
 Package: bytefield 2025/01/25 v2.9 Network protocol diagrams
  (c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count362
-\calc@Bcount=\count363
-\calc@Adimen=\dimen192
-\calc@Bdimen=\dimen193
-\calc@Askip=\skip75
-\calc@Bskip=\skip76
+\calc@Acount=\count373
+\calc@Bcount=\count374
+\calc@Adimen=\dimen196
+\calc@Bdimen=\dimen197
+\calc@Askip=\skip76
+\calc@Bskip=\skip77
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count364
-\calc@Cskip=\skip77
+\calc@Ccount=\count375
+\calc@Cskip=\skip78
 )
-\bytefield@height=\skip78
-\bytefield@height@increment=\skip79
+\bytefield@height=\skip79
+\bytefield@height@increment=\skip80
 \entire@bytefield@picture=\box113
-\bf@bitwidth=\skip80
+\bf@bitwidth=\skip81
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 90.
-\bf@bitheight=\skip81
-\units@wide=\skip82
-\units@tall=\skip83
-\units@high=\skip84
-\header@xpos=\skip85
-\c@header@val=\count365
-\c@max@header@val=\count366
+\bf@bitheight=\skip82
+\units@wide=\skip83
+\units@tall=\skip84
+\units@high=\skip85
+\header@xpos=\skip86
+\c@header@val=\count376
+\c@max@header@val=\count377
 \curly@box=\box114
-\wordlabelr@start=\skip86
-\wordlabelr@end=\skip87
-\wordlabell@start=\skip88
-\wordlabell@end=\skip89
-\total@lbox@width=\skip90
-\label@box@width=\skip91
-\label@box@height=\skip92
+\wordlabelr@start=\skip87
+\wordlabelr@end=\skip88
+\wordlabell@start=\skip89
+\wordlabell@end=\skip90
+\total@lbox@width=\skip91
+\label@box@width=\skip92
+\label@box@height=\skip93
 \word@label@box=\box115
 ) (./personalMacros.tex)
 -----------------------------------------------------------
@@ -609,39 +694,43 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 -----------------------------------------------------------
 (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count367
+\l__color_backend_stack_int=\count378
 ) (./main.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported on input line 5.
+(babel)             Reported on input line 8.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count368
-\scratchdimen=\dimen194
+\scratchcounter=\count379
+\scratchdimen=\dimen198
 \scratchbox=\box116
-\nofMPsegments=\count369
-\nofMParguments=\count370
+\nofMPsegments=\count380
+\nofMParguments=\count381
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count371
-\MPscratchDim=\dimen195
-\MPnumerator=\count372
-\makeMPintoPDFobject=\count373
+\MPscratchCnt=\count382
+\MPscratchDim=\dimen199
+\MPnumerator=\count383
+\makeMPintoPDFobject=\count384
 \everyMPtoPDFconversion=\toks33
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -649,50 +738,55 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package translations Info: no dictionary file `translations-basic-dictionary-.trsl' found. on input line 80.
-\c@mv@tabular=\count374
-\c@mv@boldtabular=\count375
-\c@lstlisting=\count376
+Package translations Info: no dictionary file `translations-basic-dictionary-.trsl' found. on input line 82.
+\c@mv@tabular=\count385
+\c@mv@boldtabular=\count386
+Package hyperref Info: Link coloring OFF on input line 82.
+ (./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+\c@lstlisting=\count387
  (./titelseiten.tex
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 8.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 9.
  (c:/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-Underfull \hbox (badness 3884) in paragraph at lines 8--8
+Underfull \hbox (badness 3884) in paragraph at lines 9--9
 [][]\T1/phv/b/n/17.28 Entwurf und Im-ple-men-tie-rung ei-ner
  []
 
-<BHT-Logo-vertikal.pdf, id=1, 53.01094pt x 126.0707pt>
+<BHT-Logo-vertikal.pdf, id=36, 53.01094pt x 126.0707pt>
 File: BHT-Logo-vertikal.pdf Graphic file (type pdf)
 <use BHT-Logo-vertikal.pdf>
-Package pdftex.def Info: BHT-Logo-vertikal.pdf  used on input line 8.
+Package pdftex.def Info: BHT-Logo-vertikal.pdf  used on input line 9.
 (pdftex.def)             Requested size: 64.01935pt x 152.25937pt.
 
-Overfull \hbox (1.82535pt too wide) in paragraph at lines 8--8
+Overfull \hbox (1.82535pt too wide) in paragraph at lines 9--9
 [][] [] 
  []
 
-<BHT-Elements.pdf, id=2, 32.04338pt x 161.86708pt>
+<BHT-Elements.pdf, id=37, 32.04338pt x 161.86708pt>
 File: BHT-Elements.pdf Graphic file (type pdf)
 <use BHT-Elements.pdf>
-Package pdftex.def Info: BHT-Elements.pdf  used on input line 8.
+Package pdftex.def Info: BHT-Elements.pdf  used on input line 9.
 (pdftex.def)             Requested size: 32.04329pt x 161.86667pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+trsy on input line 8.
+LaTeX Font Info:    Trying to load font information for U+trsy on input line 9.
  (c:/texlive/2025/texmf-dist/tex/latex/trsym/utrsy.fd
 File: utrsy.fd 2000/06/25v1.0transformation symbol font definitions
 )
-<BHT-Studiere-vertikal.pdf, id=3, 8.48169pt x 86.94461pt>
+<BHT-Studiere-vertikal.pdf, id=38, 8.48169pt x 86.94461pt>
 File: BHT-Studiere-vertikal.pdf Graphic file (type pdf)
 <use BHT-Studiere-vertikal.pdf>
-Package pdftex.def Info: BHT-Studiere-vertikal.pdf  used on input line 8.
+Package pdftex.def Info: BHT-Studiere-vertikal.pdf  used on input line 9.
 (pdftex.def)             Requested size: 11.87424pt x 121.7216pt.
  [1
 
@@ -735,15 +829,9 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
  (./main.toc
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 4.
- (c:/texlive/2025/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.08852pt on input line 4.
-)
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
  [3]
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
@@ -751,150 +839,99 @@ Package babel Info: 'ngerman' activates 'ngerman' shorthands.
  [4{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}
 
 ] (./main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
+\tf@lof=\write7
+\openout7 = `main.lof'.
 
-) (./kapitel1/ch1.tex [1] [2
+) (./kapitel1/chapter01.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Praktikumsbetrieb} [1]
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Praktikumsbetrieb} [2
 
 ]
 Kapitel 1.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 8.
+(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 8.
+(Font)              scaled to size 20.74pt on input line 1.
+) (./kapitel2/chapter02.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Praktikumstätigkeiten} [3]
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Praktikumstätigkeiten} [4
+
+]
+Kapitel 2.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 
+      [5]) (./anhang.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \chapter
+            {Angehängtes: Die Dateien des Pakets} [6]
+Anhang A.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 16.
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 20.
-(c:/texlive/2025/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+(Font)              scaled to size 12.0pt on input line 12.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 12.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 13.
+(c:/texlive/2025/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.08852pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 14.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 17.
+ (c:/texlive/2025/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 20.
-LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 11.95201pt on input line 48.
- (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2025/10/06 1.11 (Carsten Heinz)
- 
-Define lst-aspect `tex': texcs, moretexcs, deletetexcs, texcsstyle, texcsstyle, 
-Allocs: none
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.30002pt on input line 62.
-LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 8.30002pt on input line 63.
- [3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 88.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 88.
-LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 9.96002pt on input line 100.
- [4] (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/10/06 1.11 listings language file
-) (c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2025/10/06 1.11 (Carsten Heinz)
- 
-Define lst-aspect `directives': directives, moredirectives, deletedirectives, directivestyle, 
-Allocs: none
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 8.30002pt on input line 176.
- [5]
-
-LaTeX Warning: Citation `albach.GdE2' on page 6 undefined on input line 258.
-
-
-Overfull \hbox (7.29126pt too wide) in paragraph at lines 268--270
-\T1/LinuxLibertineT-TLF/m/n/10.95 Idealerweise ver-wen-det man \T1/fvm/m/n/10.95 make \T1/LinuxLibertineT-TLF/m/n/10.95 und das mit-ge-lie-fer-te \T1/fvm/m/n/10.95 makefile \T1/LinuxLibertineT-TLF/m/n/10.95 f�r die-se Auf-ga-ben oder schreibt
- []
-
-
-LaTeX Warning: Citation `bibTeX.manual' on page 6 undefined on input line 273.
-
-[6]
-<kapitel1/pictures/schaltbild.pdf, id=73, 450.88501pt x 209.3166pt>
-File: kapitel1/pictures/schaltbild.pdf Graphic file (type pdf)
-<use kapitel1/pictures/schaltbild.pdf>
-Package pdftex.def Info: kapitel1/pictures/schaltbild.pdf  used on input line 324.
-(pdftex.def)             Requested size: 450.88391pt x 209.31609pt.
-
-Overfull \hbox (24.09258pt too wide) in paragraph at lines 324--325
- [] 
- []
-
-[7 <./kapitel1/pictures/schaltbild.pdf>]
-
-LaTeX Warning: Citation `latex.symbols' on page 8 undefined on input line 360.
-
-) (./kapitel2/ch2.tex [8]
-Kapitel 2.
-[9
-
-]
-File: kapitel1/pictures/schaltbild.pdf Graphic file (type pdf)
-<use kapitel1/pictures/schaltbild.pdf>
-Package pdftex.def Info: kapitel1/pictures/schaltbild.pdf  used on input line 32.
-(pdftex.def)             Requested size: 450.88391pt x 209.31609pt.
-
-Overfull \hbox (24.09258pt too wide) in paragraph at lines 32--33
- [] 
- []
-
-[10]
-Underfull \vbox (badness 3260) has occurred while \output is active []
-
- [11]) (./anhang.tex [12]
-Anhang A.
+(Font)              scaled to size 10.95pt on input line 17.
 
 Overfull \hbox (15.25049pt too wide) in paragraph at lines 31--33
 []\T1/fvm/m/n/10.95 bhtThesis.bib \T1/LinuxLibertineT-TLF/m/n/10.95 bein-hal-tet die zu zi-tie-ren-den Li-te-ra-tur-stel-len und wird von bibT[]Xausgewertet 
  []
 
-[13
+[7
 
-]) [14] (./main.aux)
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]) [8] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 264ED52D213F35A26081FD0818EF4204;1220.
  ) 
 Here is how much of TeX's memory you used:
- 14975 strings out of 467538
- 288553 string characters out of 5423724
- 910914 words of memory out of 5000000
- 43596 multiletter control sequences out of 15000+600000
- 725913 words of font info for 113 fonts, out of 8000000 for 9000
+ 19568 strings out of 467538
+ 363040 string characters out of 5423724
+ 765280 words of memory out of 5000000
+ 48118 multiletter control sequences out of 15000+600000
+ 722418 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,16n,125p,339b,2350s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/khoa1/.texlive2025/texmf-var/fonts/pk/ljfour/public/trsym/trsy10.657pk><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/bera/fvmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (24 pages, 438968 bytes).
+ 88i,11n,94p,360b,1243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (18 pages, 293002 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

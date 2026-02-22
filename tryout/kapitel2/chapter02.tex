@@ -1,0 +1,50 @@
+\chapter{Praktikumstätigkeiten}
+
+\section{Hardware-Design}
+
+Meine Hauptaufgabe bei DesCap besteht in dem Designen und Validieren von PCBs für das Produkt "Work",
+welches zum Beispiel vor stäubigen Umgebungen bei handwerklichen Arbeiten schützt. Auf der Leiterplatte
+befinden sich unter anderem ein DC-Spannungswandler (zum gleichzeitgen Betreiben von zwei Lüftern) und
+ein MSP430 Mikrokontroller, mit dem sich alle Nutzerfunktionen realisieren lassen. 
+
+Schon bei der Einarbeitungsphase wurde darauf hingewiesen, dass ein komplett neues PCB-Design gemacht werden musste aufgrund des
+Mikrokontrollerwechsels (ATTiny zu MSP430). In den ersten zwei Wochen bekam ich die Aufgabe, mich mit der Schaltung des Vordesigns 
+vertraut zu machen, wofür es enge Betreuung und Hilfestellung gab in Form von täglichen Treffen mit dem Engineering-Team. Dazu kamen
+auch kleinere Hardware-Recherchen, um etwa den richtigen Knopf oder die kostengünstigsten LEDs für das PCB zu finden. 
+
+Da ich im Vorfeld leider kein KiCad-Wissen verfügt habe, habe ich mich für 2 bis 3 Wochen im Anschluss mit den Grundlagen des PCB-Designs
+sowie der Bedienung von CAD-Softwares wie KiCad auseinandergesetzt. Das eigentliche Design hat 2 Wochen beansprucht, und während dieser Zeit
+gab es ständig Austausche, denn Christopher konnte sich über Github meinen Fortschritt ansehen und mir ggfs Rückmeldung geben.
+Da das neue Board über eine USB-Schnittstelle flashbar sein sollte und diese strenge Anforderungen bezüglich Routens und Impedanzmatchings
+stellte, haben wir uns zusätzlich noch externe Expertise für ein ausführliches Design-Review geholt. 
+
+Dabei habe ich gelernt, wie man mit welchen Tools bspw. die Impedanz eines USB-Diff-Pairs berechnen kann, da es der kritischste Aspekt war.
+Für dieses alleerste Design kamen wir auf 86$\Omega$, also eine akteptable Abweichung vom Idealwert 90$\Omega$. Bei dem Review wurde außerdem
+der für uns sehr wichtige Gesichtspunkt EMV (elektromagnetische Verträglichkeit) besprochen zwecks Zertifizierung. Es wurden die "best practices"
+erklärt, wie man unter anderem DC-DC-Wandler routen oder welche Glättungskondensatoren man dafür nehmen soll.
+
+Der nächste Schritt war der Bestellungsablauf. Hier habe ich mich an erster Stelle um die Auswahl von Komponenten gekümmert:
+geläufige Bauteile wie Widerstände oder Kondensatoren wurden nach ihren Werten optimiert (BOM-Konsolidierung); bei anderen Bauteilen
+wie Knöpfen, Schaltern oder LEDs wurde auf Kosten und langfristige Verfügbarkeit geachtet, damit zukünftig zeitkritischen großen Bestellungen
+nicht am Supply-chain scheitern.
+
+Eine Woche etwa nach Bestellungsabschluss kamen die Leiterplatten von China bei uns in Berlin an. Das Flashen vom MSP430, welches
+zur Erinnerung am meisten Kopfschmerzen bereitet hat, hat entgegen Erwartungen auf Anhieb funktioniert. Wir hätten gedacht, dass wir 
+ein paar Design-Runden bräuchten, um das halbwegs auf die Reihe zu bekommen. Christopher war demgemäß sehr glücklich  und hat infolgedessen
+alle zum Mittagsessen in der Schindler-Mensa eingeladen. 
+
+Nach diesem enormen Meilenstein bestanden weitere Entwicklungsarbeiten, zumindest was das PCB-Design anging, nur noch in kleinen 
+Modifikationen von einer Version zur anderen: manche Komponenten wurden gegen bessere und günstigere ausgetauscht, falsche Slkscreen-Texte wurden
+berichtigt usw. Lediglich bei der fünften Iteration ist eine Herausforderung aufgetreten, nämlich dass der Bestand für unseren USB-Stecker
+bei JLCPCB zu gering war und die Nachlieferung unsere Zeiteinschränkungen überschritten hat. Nach tagelanger Recherche wurde für eine
+nachhaltigere Variante entschieden. Allerdings musste ich selber den Footprint davon erstellen, da er nicht in der Standard-KiCad-Library
+vorhanden war. Aufgrund dessen, dass man im Kicads Footprint-Editor bei komplexen Geometrien im Gegensatz zu Solidworks z.B die Maßen und Abstände der Pads nicht
+genau in Verhältnis zueinander setzen kann, muss über Umwege gegangen werden. Letztendlich musste ich die mechanische Zeichnung vom 
+Footprint in Solidworks umsetzen, diese im Anschluss mit Inkscape bearbeiten, um sie endlich als Vorlage in Kicad zu importieren.
+
+Die Schwierigkeiten hören noch nicht auf. Die Pads des neuen USB-Steckers sind viel dichter bevölkert als beim alten, und das hat für
+einen veritablen Kampf gesorgt. Weil unser Stecker ein vertikaler und kein horizontaler ist wie die meisten USB-Stecker
+
+\section{Hardware-Testen}
+
+\section{Filter}

@@ -13,10 +13,12 @@
 %\usepackage[entwurf]{bhtThesis}
 %% Übersetzen für die Abgabe
 \usepackage[abgabe]{bhtThesis}
+\usepackage{hyperref}
 % \typeout{BHT-Abschlussarbeit V2.0 26.08.21 S.Tschirley}
 
 \usepackage{blindtext}   %für Blindtext in Kapitel 2
 \usepackage{listings}
+\linespread{1.5}
 \lstset{ 
   literate={ö}{{\"o}}1
            {ä}{{\"a}}1
@@ -86,8 +88,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Die Kapitel der Arbeit
 
-\input{kapitel1/ch1.tex}
-\input{kapitel2/ch2.tex}
+\input{kapitel1/chapter01.tex}
+\input{kapitel2/chapter02.tex}
 
 \begin{appendix}
   \input{anhang.tex}
