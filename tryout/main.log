@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.11)  22 FEB 2026 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.11)  22 FEB 2026 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -879,12 +879,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has b
 <to be read again> 
                    \relax 
 l.25 
-      [5]) (./anhang.tex
+      [5]
+Underfull \vbox (badness 3343) has occurred while \output is active []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.9 \chapter
-            {Angehängtes: Die Dateien des Pakets} [6]
+l.59 
+      [6] [7]) (./anhang.tex [8]
 Anhang A.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 12.
@@ -909,29 +912,29 @@ Overfull \hbox (15.25049pt too wide) in paragraph at lines 31--33
 []\T1/fvm/m/n/10.95 bhtThesis.bib \T1/LinuxLibertineT-TLF/m/n/10.95 bein-hal-tet die zu zi-tie-ren-den Li-te-ra-tur-stel-len und wird von bibT[]Xausgewertet 
  []
 
-[7
+[9
 
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]) [8] (./main.aux)
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]) [10] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 264ED52D213F35A26081FD0818EF4204;1220.
+(rerunfilecheck)             Checksum: 6BBDC69EE572C104AAED9D41EDAB8D5F;1316.
  ) 
 Here is how much of TeX's memory you used:
- 19568 strings out of 467538
- 363040 string characters out of 5423724
- 765280 words of memory out of 5000000
- 48118 multiletter control sequences out of 15000+600000
+ 19576 strings out of 467538
+ 363148 string characters out of 5423724
+ 768280 words of memory out of 5000000
+ 48121 multiletter control sequences out of 15000+600000
  722418 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,11n,94p,360b,1243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (18 pages, 293002 bytes).
+Output written on main.pdf (20 pages, 299224 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -42,9 +42,55 @@ vorhanden war. Aufgrund dessen, dass man im Kicads Footprint-Editor bei komplexe
 genau in Verhältnis zueinander setzen kann, muss über Umwege gegangen werden. Letztendlich musste ich die mechanische Zeichnung vom 
 Footprint in Solidworks umsetzen, diese im Anschluss mit Inkscape bearbeiten, um sie endlich als Vorlage in Kicad zu importieren.
 
+% TODO: add foto of D+ and D-
 Die Schwierigkeiten hören noch nicht auf. Die Pads des neuen USB-Steckers sind viel dichter bevölkert als beim alten, und das hat für
-einen veritablen Kampf gesorgt. Weil unser Stecker ein vertikaler und kein horizontaler ist wie die meisten USB-Stecker
+einen veritablen Kampf gesorgt. Weil unser Stecker ein vertikaler und kein horizontaler ist wie die meisten USB-Stecker, müssen 
+die D+ und D- Differentialleitungen in dem ganz schmalen Zwischenraum des Footprints überkreuzt verbunden werden. Dies erfordert,
+dass ein Via dazwischengequetscht werden muss, wodurch jedoch die DFM-Kapabilitäten (design for manufacturing) von unserem 
+PCB-Produzenten JLCPCB regelrecht auf die Probe gesetzt werden. 
 
-\section{Hardware-Testen}
+Für das Produkt fungiert der oben erwähnte MSP430 als Funktionszentrale, und dieser muss natürlich auch programmiert werden.
+An dem Programmierprozess habe ich mich nicht direkt beteiligt, denn sonst wären mir die Aufgaben über den Kopf gewachsen.
+Nichtsdestoweniger musste ich mir die Datenblätter davon durchlesen, um am Ende den Code nachvollziehen zu können. Sowohl beim 
+PCB-Design als auch beim Programmieren werfen mindestens 2 Leute einen Blick rein, um die Fehlerwahrscheinlichkeit zu minimieren.
+Meinen Beitrag zur MSP-Thematik habe ich nicht unbedingt auf C-Code-Ebene geleistet, sondern vielmehr auf Assembler-Ebene, denn ich 
+musste etliche Schutzfunktionen implementieren und es ging nur, wenn man direkt den Linker-Skript modifiziert. Obwohl nicht notwendig,
+habe ich mich deswegen auch darin vertieft, wie Linker und Loader hinter der Kulisse funktionieren.
+
+Abgesehen vom Hauptprodukt habe ich auch andere Designprojekte aufgenommen. Eines davon war ein Breakout-Board, das Partikelsensoren
+mit einem ESP32 verbindet. Dieses sollte Bestandteil von unserem Teststand zum Messen der Filtereffizienz, allerdings wurde es nicht
+in Betrieb genommen, weil wir uns anders überlegt haben.
+
+Ein weiteres Projekt, an dem ich mich seit Kurzem beteilige, ist die Integration von Sensoren in das "Work"-Produkt, die in der Lage
+sein sollen, sich untereinander mithilfe einer Basisstation über das LoRaWan-Protokoll Daten bezüglich der Innenraumluftqualität
+auszutauschen. Dies soll dem Zweck dienen, Simulationsergebnisse mit der wirklichen Betriebsfiltereffizienz zu vergleichen sowie 
+Nutzer rechtzeitig warnen, sobald Grenzwerte überschritten werden. Dieses Projekt hat mir DesCap als Thema für die Bachelorarbeit vorgeschlagen
+und sieht vorerst folgende Unteraufgaben vor: Definieren von Anforderungen DesCaps (bzgl. Datenrate, Reichweite usw), Recherche und
+Auswahl eines geeigneten Mikrokontrollers bzw Entwicklungsboards, PCB-Prototypen entwerfen \dots
+
+\section{Hardware-Testen und Dokumentation}
+
+Da es sich um Verbraucherprodukte handelt, ist das Testen genauso wichtig, wenn nicht sogar wichtiger, als das Designen von Leiterplatten.
+Hiermit verbringe ich also viel Zeit bei DesCap, um sicherzustellen, dass alles zuverlässig funktioniert und alle Missbrauchsszenarien
+seitens des Nutzers abgedeckt werden. 
+% TODO: add Testanforderungen on github as picture
+Dafür haben wir uns schon nach Bestellungsabgabe der PCBs eine umfangreiche Teststrategie überlegt. Dazu gehören unter anderem folgende Punkte:
+\begin{enumerate}
+    \item Welche Größen von welchen Komponenten müssen erfasst werden? Z.B. Temperatur und Entladespannung der Batterie, PWM-Duty-Cycle der Lüfter, Ladestrom \dots
+    \item Zulässige Wertebereiche für gemessene Signale
+    \item Durchscnittliche Standzeit in verschiedenen Betriebsmodi
+\end{enumerate}
+
+Bei der ersten Batch wurde alles noch manuell erfasst, das heißt die PCBs enthielten zahlreiche Testpads, die beim Bedarf gelötet
+und an das Messgerät herangeführt werden mussten. Schnell haben wir festgestellt, dass es zwar funktioniert hat, aber recht mühsam war,
+wenn man mehrere Boards hintereinander testen wollte. Mit dieser Erkenntnis habe ich mir zur Aufgabe gemacht, einen kostengünstigen
+PCB-Test-jig zu bauen. 
+
+Der Aufbau entspricht einem typischen kommerziellen Testjig, mit kleinen Anpassungen: die Pogopins, die die SMT-Testpads auf dem PCB
+berühren sollen, werden auf einem Perfboard gelötet und auf der Unterseite des 3D-gedruckten PCB-Trägers angebracht. Die Oberseite
+hat einen Ausschnitt mit der gleichen Geometrie wie das PCB selbst. Die Pogopins werden auf der anderen Seite über Drähte mit dem Messgerät verbunden
+(in diesem Fall der Analog Discovery 3). %TODO: add pics here
+
+Auf diesem Wege können sehr aussagekräftige Kennlinien aufgezeichnet werden: % TODO: add pics here
 
 \section{Filter}
