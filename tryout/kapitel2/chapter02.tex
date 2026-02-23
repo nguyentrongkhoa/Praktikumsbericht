@@ -68,7 +68,7 @@ Nutzer rechtzeitig warnen, sobald Grenzwerte überschritten werden. Dieses Proje
 und sieht vorerst folgende Unteraufgaben vor: Definieren von Anforderungen DesCaps (bzgl. Datenrate, Reichweite usw), Recherche und
 Auswahl eines geeigneten Mikrokontrollers bzw Entwicklungsboards, PCB-Prototypen entwerfen \dots
 
-\section{Hardware-Testen und Dokumentation}
+\section{Hardware-Testen}
 
 Da es sich um Verbraucherprodukte handelt, ist das Testen genauso wichtig, wenn nicht sogar wichtiger, als das Designen von Leiterplatten.
 Hiermit verbringe ich also viel Zeit bei DesCap, um sicherzustellen, dass alles zuverlässig funktioniert und alle Missbrauchsszenarien
@@ -93,4 +93,56 @@ hat einen Ausschnitt mit der gleichen Geometrie wie das PCB selbst. Die Pogopins
 
 Auf diesem Wege können sehr aussagekräftige Kennlinien aufgezeichnet werden: % TODO: add pics here
 
+Damit jegliche Entwicklungsschritte auch im Nachhinein nachvollziehbar sind, wird alles möglichst
+detailliert zu dokumentieren. Ich lege großen Wert darauf, nach Beenden jeder kleinen Aufgabe dies zu erledigen, bevor ich zur 
+nächsten übergehe. 
+
 \section{Filter}
+
+Da DesCap wie erwähnt sich mit tragbaren Atemschutzgeräten befasst, kommt man nicht um das Thema Filter herum, und genau das stellt einen weiteren wichtigen Tätigkeitsbereich für mich dar. 
+Dabei setze ich mich hauptsächlich mit drei Richtungen der DesCap-Filterstrategie auseinander.
+
+\subsection{Mechanische Partikelfilter}
+
+An erster Stelle stehen rein mechanische Filter für die Partikelgrößen PM$_{10}$ und PM$_{2.5}$ (alle Angaben in $\mu$m). 
+In diesem Bereich beschäftigte ich mich zunächst mit den physikalischen Grundlagen der Partikelabscheidung. Mechanische Filter 
+arbeiten im Wesentlichen nach dem Prinzip der Siebwirkung, der Trägheitsabscheidung, der Diffusion sowie der Interzeption. 
+Abhängig von der Partikelgröße und der Strömungsgeschwindigkeit dominieren unterschiedliche Abscheidemechanismen. 
+Während größere Partikel vor allem durch Trägheit und direkte Anlagerung an die Fasern abgeschieden werden, 
+spielen bei kleineren Partikeln zusätzlich Diffusionseffekte eine wichtige Rolle.
+
+Im Rahmen meines Praktikums analysierte ich verschiedene Filtermedien hinsichtlich ihrer Porenstruktur, 
+Faserdurchmesser und Schichtdicke. Ein zentraler Aspekt war dabei stets das Verhältnis zwischen Filtrationseffizienz 
+und Atemwiderstand. Besonders bei tragbaren Atemschutzgeräten ist es entscheidend, einen möglichst hohen Abscheidegrad 
+zu erreichen, ohne den Luftdurchfluss zu stark zu behindern. Ich unterstützte bei der Auswertung von Messdaten, 
+in denen Druckverlust und Abscheideleistung experimentell bestimmt wurden. Zudem verglich ich unterschiedliche 
+Materialkombinationen und deren Einfluss auf Gewicht, Baugröße und Austauschintervalle der Filter.
+
+\subsection{Geruchsfilter}
+
+Der zweite Schwerpunkt lag bei Geruchsfiltern. Im Gegensatz zu mechanischen Filtern geht es hier nicht 
+primär um feste Partikel, sondern um gasförmige Stoffe und flüchtige organische Verbindungen. Die Filterwirkung basiert meist 
+auf Adsorption, insbesondere durch Aktivkohle oder andere hochporöse Materialien mit großer innerer Oberfläche.
+
+Ich beschäftigte mich mit den Grundlagen der Adsorptionsprozesse und deren Abhängigkeit von Faktoren wie Temperatur, 
+Luftfeuchtigkeit und Konzentration der Schadstoffe. Dabei lernte ich, dass die Leistungsfähigkeit eines Geruchsfilters 
+stark von der Sättigung des Adsorptionsmaterials abhängt. Ein wichtiger Aspekt war daher die Abschätzung der Standzeit 
+solcher Filter unter realistischen Einsatzbedingungen.
+
+Im Rahmen meiner Aufgaben unterstützte ich bei der Bewertung verschiedener Aktivkohlematerialien hinsichtlich ihrer 
+spezifischen Oberfläche und Adsorptionskapazität. Außerdem analysierte ich, wie sich die Integration eines 
+Geruchsfilters in ein bestehendes Atemschutzsystem konstruktiv auswirkt, beispielsweise in Bezug auf Bauraum, 
+Gewicht und Austauschbarkeit. Ziel ist es, eine möglichst kompakte Lösung zu entwickeln, die dennoch eine effektive 
+Reduktion unangenehmer oder gesundheitsschädlicher Gase gewährleistet.
+
+\subsection{Elektrostatische Filter}
+
+Der dritte Themenbereich umfasste elektrostatische Filterkonzepte. Diese nutzen elektrische Ladungen, um Partikel aus der 
+Luft zu entfernen. Dabei werden entweder die Partikel selbst ionisiert oder das Filtermedium ist elektrostatisch geladen, 
+sodass die Partikel durch Coulomb-Kräfte angezogen und gebunden werden.
+
+Ich habe Fachliteratur zu dem Thema Elektretmaterialien gelesen und theoretische Einblicke in deren Auf- sowie Entladungsmechanismen erworben.
+Mit dem Wissen wurde anschließend untersucht, inwiefern diese Technologie zur Effizienzsteigerung bei gleichbleibendem oder reduziertem Atemwiderstand beitragen kann. 
+Kernpunkt war auch die Gegenüberstellung von rein mechanischen Filtern und Kombinationsfiltern. Hier haben wir uns Fragen gewidmet wie 
+"welche Kombination sowie Anordnung der 3 Filtersorten wäre optimal?" bzw. "würde die gesteigerte Filterleistung und -standzeit den 
+höheren Produktpreis rechtfertigen?".  

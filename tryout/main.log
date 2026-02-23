@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.11)  22 FEB 2026 20:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.11)  23 FEB 2026 11:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,7 +756,7 @@ Underfull \hbox (badness 3884) in paragraph at lines 9--9
 [][]\T1/phv/b/n/17.28 Entwurf und Im-ple-men-tie-rung ei-ner
  []
 
-<BHT-Logo-vertikal.pdf, id=36, 53.01094pt x 126.0707pt>
+<BHT-Logo-vertikal.pdf, id=48, 53.01094pt x 126.0707pt>
 File: BHT-Logo-vertikal.pdf Graphic file (type pdf)
 <use BHT-Logo-vertikal.pdf>
 Package pdftex.def Info: BHT-Logo-vertikal.pdf  used on input line 9.
@@ -766,7 +766,7 @@ Overfull \hbox (1.82535pt too wide) in paragraph at lines 9--9
 [][] [] 
  []
 
-<BHT-Elements.pdf, id=37, 32.04338pt x 161.86708pt>
+<BHT-Elements.pdf, id=49, 32.04338pt x 161.86708pt>
 File: BHT-Elements.pdf Graphic file (type pdf)
 <use BHT-Elements.pdf>
 Package pdftex.def Info: BHT-Elements.pdf  used on input line 9.
@@ -783,7 +783,7 @@ LaTeX Font Info:    Trying to load font information for U+trsy on input line 9.
  (c:/texlive/2025/texmf-dist/tex/latex/trsym/utrsy.fd
 File: utrsy.fd 2000/06/25v1.0transformation symbol font definitions
 )
-<BHT-Studiere-vertikal.pdf, id=38, 8.48169pt x 86.94461pt>
+<BHT-Studiere-vertikal.pdf, id=50, 8.48169pt x 86.94461pt>
 File: BHT-Studiere-vertikal.pdf Graphic file (type pdf)
 <use BHT-Studiere-vertikal.pdf>
 Package pdftex.def Info: BHT-Studiere-vertikal.pdf  used on input line 9.
@@ -887,54 +887,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has b
 <to be read again> 
                    \relax 
 l.59 
-      [6] [7]) (./anhang.tex [8]
-Anhang A.
+      [6] [7]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 12.
+(Font)              scaled to size 12.0pt on input line 105.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 12.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 13.
-(c:/texlive/2025/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.08852pt on input line 13.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 14.
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 17.
- (c:/texlive/2025/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
-File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 105.
+ [8]) (./kapitel3/chapter03.tex [9] [10]
+Kapitel 3.
+) [11
 
-Overfull \hbox (15.25049pt too wide) in paragraph at lines 31--33
-[]\T1/fvm/m/n/10.95 bhtThesis.bib \T1/LinuxLibertineT-TLF/m/n/10.95 bein-hal-tet die zu zi-tie-ren-den Li-te-ra-tur-stel-len und wird von bibT[]Xausgewertet 
- []
-
-[9
-
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]) [10] (./main.aux)
+] [12] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6BBDC69EE572C104AAED9D41EDAB8D5F;1316.
+(rerunfilecheck)             Checksum: D42E54F7C856F8BD5477B9DC97C862BB;1575.
  ) 
 Here is how much of TeX's memory you used:
- 19576 strings out of 467538
- 363148 string characters out of 5423724
+ 19517 strings out of 467538
+ 361750 string characters out of 5423724
  768280 words of memory out of 5000000
- 48121 multiletter control sequences out of 15000+600000
- 722418 words of font info for 102 fonts, out of 8000000 for 9000
+ 48071 multiletter control sequences out of 15000+600000
+ 715832 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,11n,94p,360b,1243s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (20 pages, 299224 bytes).
+ 88i,11n,94p,360b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (22 pages, 322436 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
