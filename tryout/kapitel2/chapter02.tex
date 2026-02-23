@@ -84,14 +84,109 @@ Dafür haben wir uns schon nach Bestellungsabgabe der PCBs eine umfangreiche Tes
 Bei der ersten Batch wurde alles noch manuell erfasst, das heißt die PCBs enthielten zahlreiche Testpads, die beim Bedarf gelötet
 und an das Messgerät herangeführt werden mussten. Schnell haben wir festgestellt, dass es zwar funktioniert hat, aber recht mühsam war,
 wenn man mehrere Boards hintereinander testen wollte. Mit dieser Erkenntnis habe ich mir zur Aufgabe gemacht, einen kostengünstigen
-PCB-Test-jig zu bauen. 
+\href{https://github.com/nguyentrongkhoa/PCB_test_jig?tab=readme-ov-file#tests}{PCB-Test-Jig} zu bauen. 
 
 Der Aufbau entspricht einem typischen kommerziellen Testjig, mit kleinen Anpassungen: die Pogopins, die die SMT-Testpads auf dem PCB
 berühren sollen, werden auf einem Perfboard gelötet und auf der Unterseite des 3D-gedruckten PCB-Trägers angebracht. Die Oberseite
 hat einen Ausschnitt mit der gleichen Geometrie wie das PCB selbst. Die Pogopins werden auf der anderen Seite über Drähte mit dem Messgerät verbunden
-(in diesem Fall der Analog Discovery 3). %TODO: add pics here
+(in diesem Fall der Analog Discovery 3). 
 
-Auf diesem Wege können sehr aussagekräftige Kennlinien aufgezeichnet werden: % TODO: add pics here
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{kapitel2/pictures/pogo_1.jpg} % Name deines ersten Bildes
+         \caption{Vorderansicht}
+         \label{fig:bild1}
+     \end{subfigure}
+     \hfill % Erzeugt den horizontalen Abstand zwischen den Bildern
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{pogo_2} % Name deines zweiten Bildes
+         \caption{Seitenansicht}
+         \label{fig:bild2}
+     \end{subfigure}
+     \caption{Pogo-Pins im PCB-Test-Jig}
+     \label{fig:gesamtbild}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{pogo_pins} % Name deines ersten Bildes
+         \caption{Oberteil}
+         \label{fig:bild3}
+     \end{subfigure}
+     \hfill % Erzeugt den horizontalen Abstand zwischen den Bildern
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{print_2_parts} % Name deines zweiten Bildes
+         \caption{Unterteil}
+         \label{fig:bild4}
+     \end{subfigure}
+     \caption{3D-gedrucktes Jig in Solidworks}
+     \label{fig:gesamtbild1}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{test_jig_top} % Name deines ersten Bildes
+         \caption{Vorderansicht}
+         \label{fig:bild5}
+     \end{subfigure}
+     \hfill % Erzeugt den horizontalen Abstand zwischen den Bildern
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{test_jig_overview} % Name deines zweiten Bildes
+         \caption{Seitenansicht}
+         \label{fig:bild6}
+     \end{subfigure}
+     \caption{Gesamter Aufbau}
+     \label{fig:gesamtbild2}
+\end{figure}
+
+Auf diesem Wege können sehr aussagekräftige Kennlinien aufgezeichnet werden: 
+
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{test_5} % Name deines ersten Bildes
+         \caption{Bei hoher Lüfter-PWM-Zahl}
+         \label{fig:bild7}
+     \end{subfigure}
+     \hfill % Erzeugt den horizontalen Abstand zwischen den Bildern
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{test_7} % Name deines zweiten Bildes
+         \caption{Bei hoher Lüfter-PWM-Zahl}
+         \label{fig:bild8}
+     \end{subfigure}
+     \caption{Batterieentladung bei verschiedenen Funktionsmodi}
+     \label{fig:gesamtbild3}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{test_6} % Name deines ersten Bildes
+         %\caption{Bei hoher Lüfter-PWM-Zahl}
+         \label{fig:bild9}
+     \end{subfigure}
+     \hfill % Erzeugt den horizontalen Abstand zwischen den Bildern
+     \begin{subfigure}[b]{0.48\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{test_8} % Name deines zweiten Bildes
+         %\caption{Bei hoher Lüfter-PWM-Zahl}
+         \label{fig:bild10}
+     \end{subfigure}
+     \caption{Batterieaufladung}
+     \label{fig:gesamtbild4}
+\end{figure}
 
 Damit jegliche Entwicklungsschritte auch im Nachhinein nachvollziehbar sind, wird alles möglichst
 detailliert zu dokumentieren. Ich lege großen Wert darauf, nach Beenden jeder kleinen Aufgabe dies zu erledigen, bevor ich zur 
