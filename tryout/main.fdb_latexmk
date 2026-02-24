@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1771860566.87525 "c:/Users/khoa1/OneDrive/Desktop/HROB/6. Sem/Praxisphase/Praktikumsbericht/tryout/main.tex" "main.pdf" "main" 1771860575.17406 0
+["pdflatex"] 1771912593.22079 "c:/Users/khoa1/OneDrive/Desktop/HROB/6. Sem/Praxisphase/Praktikumsbericht/tryout/main.tex" "main.pdf" "main" 1771912603.14257 0
   "BHT-Elements.pdf" 1771675946 1158 61534b2aa2981b4db82872ca09acdb56 ""
   "BHT-Logo-vertikal.pdf" 1771675946 4604 ab5b60ffda74c1c05706080f71ed3cbb ""
   "BHT-Studiere-vertikal.pdf" 1771675946 2541 51312e70e69c03f446094b09c46bbe72 ""
@@ -159,7 +159,8 @@
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1762866510 3635451 a65bbb81882ebaaf575b60165a9479bd ""
   "c:/texlive/2025/texmf.cnf" 1762865921 713 614551405fc44b98efbf516466e3c909 ""
   "kapitel1/chapter01.tex" 1771687785 1675 e9dcbe1a8a504d708bca8f81af01c8b1 ""
-  "kapitel2/chapter02.tex" 1771860554 16555 ae95058185faba0a5df26c08d53e3a0e ""
+  "kapitel2/chapter02.tex" 1771912578 16995 d6fb3086afcfd849aa619fe1807c62de ""
+  "kapitel2/pictures/pcb.jpeg" 1771868074 144049 c8a4d9b8466014c19d4175c360cce8ff ""
   "kapitel2/pictures/pogo_1.jpg" 1764920496 138533 4bc142b743c6d0feb70e132c3c854fd1 ""
   "kapitel2/pictures/pogo_2.jpg" 1764920497 118664 4c2029faec658be1b64fd500abdb7b9e ""
   "kapitel2/pictures/pogo_pins.png" 1764879494 84068 efec2768e9809fcd3e27e6a7350594af ""
@@ -170,14 +171,15 @@
   "kapitel2/pictures/test_8.png" 1764863045 54055 e3b1f9e143e58c4067fe3080c1566fb9 ""
   "kapitel2/pictures/test_jig_overview.jpg" 1764920496 140826 6a47c1e841b2b79cb175e89483ec8d1c ""
   "kapitel2/pictures/test_jig_top.jpg" 1764920495 125113 75c42f95c1094f455f620af5a7cf1628 ""
+  "kapitel2/pictures/usb.png" 1771867755 98609 543c2dd001e90236dc090d68b1e79767 ""
   "kapitel3/chapter03.tex" 1771841358 2333 6251ac67d5c9f90004a59e97ccd97eed ""
-  "main.aux" 1771860574 4567 38e2054793fd02e919cb876da86f3c94 "pdflatex"
-  "main.cb" 1771860569 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.cb2" 1771860569 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.lof" 1771860574 629 3033b72dbaf6bc8a5b694e15f196b51e "pdflatex"
-  "main.out" 1771860574 1575 d42e54f7c856f8bd5477b9dc97c862bb "pdflatex"
+  "main.aux" 1771912601 5083 8b0bd94275ed1acbda0af2480912fd86 "pdflatex"
+  "main.cb" 1771912595 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.cb2" 1771912595 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.lof" 1771912601 866 1c81a248e0f9707f64f07c34ac206fcf "pdflatex"
+  "main.out" 1771912601 1575 d42e54f7c856f8bd5477b9dc97c862bb "pdflatex"
   "main.tex" 1771859813 2857 fadc6a2f94ad43868758121f4aa7b0de ""
-  "main.toc" 1771860574 908 085eac687a80b050a5f8119432ac48da "pdflatex"
+  "main.toc" 1771912601 908 e727ba58f077ba7a60360392de25c55b "pdflatex"
   "personalMacros.tex" 1771675946 150 4e326ca9bc4651ecc627f84234db42ec ""
   "titelseiten.tex" 1771857824 1041 200e0c9e792419ebdc5eac1e784f029c ""
   (generated)

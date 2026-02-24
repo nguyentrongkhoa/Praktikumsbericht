@@ -31,7 +31,14 @@ nicht am Supply-chain scheitern.
 Eine Woche etwa nach Bestellungsabschluss kamen die Leiterplatten von China bei uns in Berlin an. Das Flashen vom MSP430, welches
 zur Erinnerung am meisten Kopfschmerzen bereitet hat, hat entgegen Erwartungen auf Anhieb funktioniert. Wir hätten gedacht, dass wir 
 ein paar Design-Runden bräuchten, um das halbwegs auf die Reihe zu bekommen. Christopher war demgemäß sehr glücklich  und hat infolgedessen
-alle zum Mittagsessen in der Schindler-Mensa eingeladen. 
+alle zum Mittagsessen in der Schindler-Mensa eingeladen. % TODO:
+
+\begin{figure}[htbp] % Das !ht ist die stabilste Alternative zu [H] ohne extra Paket
+    \centering
+    \includegraphics[width=0.8\textwidth]{pcb} 
+    \caption{Mein allererstes PCB bei DesCap}
+    \label{fig:mein_bild}
+\end{figure}
 
 Nach diesem enormen Meilenstein bestanden weitere Entwicklungsarbeiten, zumindest was das PCB-Design anging, nur noch in kleinen 
 Modifikationen von einer Version zur anderen: manche Komponenten wurden gegen bessere und günstigere ausgetauscht, falsche Slkscreen-Texte wurden
@@ -42,12 +49,18 @@ vorhanden war. Aufgrund dessen, dass man im Kicads Footprint-Editor bei komplexe
 genau in Verhältnis zueinander setzen kann, muss über Umwege gegangen werden. Letztendlich musste ich die mechanische Zeichnung vom 
 Footprint in Solidworks umsetzen, diese im Anschluss mit Inkscape bearbeiten, um sie endlich als Vorlage in Kicad zu importieren.
 
-% TODO: add foto of D+ and D-
 Die Schwierigkeiten hören noch nicht auf. Die Pads des neuen USB-Steckers sind viel dichter bevölkert als beim alten, und das hat für
 einen veritablen Kampf gesorgt. Weil unser Stecker ein vertikaler und kein horizontaler ist wie die meisten USB-Stecker, müssen 
 die D+ und D- Differentialleitungen in dem ganz schmalen Zwischenraum des Footprints überkreuzt verbunden werden. Dies erfordert,
 dass ein Via dazwischengequetscht werden muss, wodurch jedoch die DFM-Kapabilitäten (design for manufacturing) von unserem 
 PCB-Produzenten JLCPCB regelrecht auf die Probe gesetzt werden. 
+
+\begin{figure}[H] % Das !ht ist die stabilste Alternative zu [H] ohne extra Paket
+    \centering
+    \includegraphics[width=0.8\textwidth]{usb} 
+    \caption{Schwierigkeiten beim Routen des USB-Stecker}
+    \label{fig:usb}
+\end{figure}
 
 Für das Produkt fungiert der oben erwähnte MSP430 als Funktionszentrale, und dieser muss natürlich auch programmiert werden.
 An dem Programmierprozess habe ich mich nicht direkt beteiligt, denn sonst wären mir die Aufgaben über den Kopf gewachsen.
